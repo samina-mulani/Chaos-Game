@@ -5,7 +5,7 @@ $(document).ready(function(e){
     let vertices = [];
     let form = document.getElementById("frm");
     // resize the canvas to fill browser window dynamically
-    window.addEventListener('resize', resizeCanvas, false);
+    //window.addEventListener('resize', resizeCanvas, false);
     form.addEventListener("submit",sub);
 
     function resizeCanvas() {
