@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	position: relative;
+}
+
+canvas{
+	z-index:1;
+}
+
+form{
+	position: absolute;
+	top: 2vh;
+	left: 5vw;
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+}
+
+h1{
+	color:lime;
+	padding-bottom: 10px;
+	font-size: 3em;
+}
+
+input{
+	background: black;
+	border:none;
+	border-bottom: 2px solid red;
+	color: lightpink;
+	font-size: 1em;
+	padding: 5px;
+}
+
+div{
+	flex-basis: 33%;
+	background: black;
+	color: lightpink;
+	z-index: 2;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+#sub_btn{
+	padding: 0.5em;
+	background: lime;
+	color: black;
+	font-weight: 600;
+	margin-left: 5vw;
+	margin-top: 2vw;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+#sub_btn:hover{
+	cursor: pointer;
+	background: rgb(210,255,0);
+}
