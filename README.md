@@ -1,6 +1,6 @@
 # Chaos-Game
 
-[Click here](ChaosGame.html)
+[Click here](https://samina-mulani.github.io/Chaos-Game/ChaosGame.html)
 
 TRY
 3,0.5
